@@ -21,28 +21,28 @@ The `-h` will bring up the help documentation. Below are a few examples of how t
 
 ## Examples:
 
-Estimating 1-sigma confidence limits for 6 counts:
+Estimating 1-sigma confidence level limits for 6 counts:
 ```
 $ python LowCountStats.py 6
 For 6 events, Gehrels 0.8413 confidence level boundaries are:
 3.62 -- 9.58
 ```
 
-Estimating 0.95 confidence limits for 5 counts:
+Estimating 0.95 confidence level limits for 5 counts:
 ```
 $ python LowCountStats.py 5 --cl 0.95
 For 5 events, Gehrels 0.95 confidence level boundaries are:
 1.97 -- 10.51 
 ```
 
-Estimating 1-sigma confidence limits for 6 counts and 1.2 bkg counts
+Estimating 1-sigma confidence level limits for 6 counts and 1.2 bkg counts
 ```
 $ python LowCountStats.py 6 --bkg 1.2
 For 6 events and a background of 1.2, Kraft 0.8413 confidence level boundaries are:
 1.95 -- 9.01 
 ```
 
-Estimating 0.99 confidence limits for 9 counts and 1.5 bkg counts
+Estimating 0.99 confidence level limits for 9 counts and 1.5 bkg counts
 ```
 $ python LowCountStats.py 9 --bkg 1.5 --cl 0.99
 For 9 events and a background of 1.5, Kraft 0.99 confidence level boundaries are:
