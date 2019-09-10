@@ -141,8 +141,8 @@ if params.cl == None:
 if params.bkg == None:
     results = gehrels(params.N, params.cl)
     #print(f'For {params.N} events, Gehrels {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
-    print('For '+str(params.N)+' events, Gehrels '+str(params.cl)+' confidence level boundaries are:\n')
-    print(round(results[0],2),'--',round(results[1],2),'\n')
+    print('For '+str(params.N)+' events, Gehrels '+str(params.cl)+' confidence level boundaries are:')
+    print(round(results[0],2),'--',round(results[1],2))
     #print('\nReference: Gehrels et al. 1986, ApJ, 303, 336')
     
 else:
