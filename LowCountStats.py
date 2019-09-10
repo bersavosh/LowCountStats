@@ -148,6 +148,6 @@ if params.bkg == None:
 else:
     results = kraft(params.N, params.bkg, params.cl)
     #print(f'For {params.N} events and a background of {params.bkg}, Kraft {params.cl} confidence level boundaries are:\n{results[0]:.2f} -- {results[1]:.2f}')
-    print('For '+str(params.N)+' events and a background of '+str(params.bkg)+', Kraft '+str(params.cl)+' confidence level boundaries are:\n')
-    print(round(results[0],2),'--',round(results[1],2),'\n')
+    print('For '+str(params.N)+' events and a background of '+str(params.bkg)+', Kraft '+str(params.cl)+' confidence level boundaries are:')
+    print(round(results[0],2),'--',round(results[1],2))
     #print('\nReference: Gehrels et al. 1986, ApJ, 303, 336; Kraft et al. 1991, ApJ, 374, 344')
