@@ -7,7 +7,7 @@ A fast and light-weight script to estimate uncertainties for low-count Poissonia
 - [Scipy](https://www.scipy.org/)
 
 ## Use:
-You can download the script quickly in the terminal with `wget`:
+The intetion here is to get numbers quickly. So, no installation needed. You can simply download the script with any method you prefer and run it. If you're not familiar with Github, you can quickly download the script in the terminal using `wget`:
 ```
 wget https://raw.githubusercontent.com/bersavosh/LowCountStats/master/LowCountStats.py
 ```
@@ -16,6 +16,8 @@ And then run it simply with python:
 ```
 python LowCountStats.py -h
 ```
+
+The `-h` will bring up the help documentation. Below are a few examples of how to run it. 
 
 ## Examples:
 
@@ -56,5 +58,5 @@ For 9 events and a background of 1.5, Kraft 0.99 confidence level boundaries are
 ```
 
 ## License:
-This script is developed and maintained by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have any comments/questions/suggestions.
+This script is developed and maintained by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me if you have any comments/questions/suggestions. Licensed under GNU v3.
 
