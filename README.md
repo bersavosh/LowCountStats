@@ -49,6 +49,27 @@ For 9 events and a background of 1.5, Kraft 0.99 confidence level boundaries are
 1.77 -- 17.7 
 ```
 
+## How fast is it?
+Testing on a 3 years old laptop:
+
+```
+$ time python LowCountStats.py 6 --cl 0.99
+For 6 events, Gehrels 0.99 confidence level boundaries are:
+1.79 -- 14.57
+
+real    0m0.425s
+user    0m0.302s
+sys    0m0.082s
+
+$ time python LowCountStats.py 6 --bkg 2 --cl 0.99
+For 6 events and a background of 2.0, Kraft 0.99 confidence level boundaries are:
+0.0 -- 12.58
+
+real    0m0.540s
+user    0m0.466s
+sys    0m0.060s
+```
+
 ## License:
 This script is developed and maintained by [Arash Bahramian](https://bersavosh.github.io/). Feel free to contact me or open a Github issue if you have any comments/questions/suggestions. 
 
